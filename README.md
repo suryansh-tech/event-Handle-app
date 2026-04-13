@@ -13,7 +13,7 @@ From Google Sheets to live leaderboard in under 5 minutes.
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-black?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
 
-[🌐 Live Demo](https://eventrank.vercel.app) · [📖 Docs](#-installation--setup) · [🐛 Report Bug](https://github.com/suryansh-tech/event-Handle-app/blob/main/.github/ISSUE_TEMPLATE/bug_report.md) · [💡 Request Feature](https://github.com/suryansh-tech/event-Handle-app/blob/main/.github/ISSUE_TEMPLATE/feature_request.md)
+[🌐 Live Demo](https://event-handle-app.vercel.app/super-admin) · [📖 Docs](#-installation--setup) · [🐛 Report Bug](https://github.com/suryansh-tech/event-Handle-app/blob/main/.github/ISSUE_TEMPLATE/bug_report.md) · [💡 Request Feature](https://github.com/suryansh-tech/event-Handle-app/blob/main/.github/ISSUE_TEMPLATE/feature_request.md)
 
 ---
 
@@ -688,11 +688,13 @@ Key architectural decisions include:
 
 ## 👨‍💻 Built By
 
-**Suryansh** — NIET, Greater Noida
+**Suryansh Porwal** — NIET, Greater Noida  
 
-Built with Claude Code + Next.js + Supabase
+Solving real-world college problems with scalable, real-time technology.  
 
----
+From manual judging chaos → live leaderboard systems.  
+
+🚀 Next.js · Supabase · TypeScript
 
 <div align="center">
 
