@@ -1,0 +1,36 @@
+const fs = require('fs');
+let c = fs.readFileSync('src/app/leaderboard/page.js', 'utf8');
+
+c = c.replace(/bg-surface-container-highest\/40/g, 'bg-[#2d344a]/40');
+c = c.replace(/bg-surface-container-high/g, 'bg-[#22293e]');
+c = c.replace(/bg-surface-container-highest/g, 'bg-[#2d344a]');
+c = c.replace(/bg-surface-bright\/40/g, 'bg-[#31394e]/40');
+c = c.replace(/bg-surface-container-low\/40/g, 'bg-[#131b2f]/40');
+c = c.replace(/bg-surface-container-lowest/g, 'bg-[#060d21]');
+c = c.replace(/bg-surface-bright/g, 'bg-[#31394e]');
+c = c.replace(/bg-surface/g, 'bg-[#0a1327]');
+c = c.replace(/text-on-surface-variant\/40/g, 'text-[#ccc3d8]/40');
+c = c.replace(/text-on-surface-variant/g, 'text-[#ccc3d8]');
+c = c.replace(/text-on-surface/g, 'text-[#dae2fe]');
+c = c.replace(/text-on-background/g, 'text-[#dae2fe]');
+c = c.replace(/text-tertiary\/60/g, 'text-[#ffb95f]/60');
+c = c.replace(/bg-tertiary/g, 'bg-[#ffb95f]');
+c = c.replace(/text-tertiary/g, 'text-[#ffb95f]');
+c = c.replace(/from-tertiary-container/g, 'from-[#905b00]');
+c = c.replace(/to-tertiary/g, 'to-[#ffb95f]');
+c = c.replace(/bg-secondary\/10/g, 'bg-[#4edea3]/10');
+c = c.replace(/border-secondary\/20/g, 'border-[#4edea3]/20');
+c = c.replace(/bg-secondary/g, 'bg-[#4edea3]');
+c = c.replace(/text-secondary/g, 'text-[#4edea3]');
+c = c.replace(/bg-primary\/40/g, 'bg-[#d2bbff]/40');
+c = c.replace(/bg-primary\/20/g, 'bg-[#d2bbff]/20');
+c = c.replace(/text-primary/g, 'text-[#d2bbff]');
+c = c.replace(/text-error/g, 'text-[#ffb4ab]');
+c = c.replace(/text-outline\/60/g, 'text-[#958da1]/60');
+c = c.replace(/text-outline/g, 'text-[#958da1]');
+c = c.replace(/from-outline-variant/g, 'from-[#4a4455]');
+c = c.replace(/to-outline/g, 'to-[#958da1]');
+c = c.replace(/bg-primary-container/g, 'bg-[#7c3aed]');
+c = c.replace(/text-on-primary-container/g, 'text-[#ede0ff]');
+
+fs.writeFileSync('src/app/leaderboard/page.js', c);
