@@ -1,10 +1,8 @@
 <div align="center">
 
-<img src="YOUR_LOGO_URL" alt="EventRank Logo" width="80" height="80"/>
-
 # EventRank
 
-**The real-time event judging infrastructure built for Indian colleges.**
+**The real-time event judging infrastructure built for colleges & Events.**
 From Google Sheets to live leaderboard in under 5 minutes.
 
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
@@ -20,7 +18,7 @@ From Google Sheets to live leaderboard in under 5 minutes.
 <!-- 📸 SCREENSHOT PLACEHOLDER 1 -->
 <!-- Add a wide hero screenshot of your leaderboard here -->
 <!-- Recommended: 1400x700px, dark theme leaderboard with live badge -->
-> **[ADD HERO SCREENSHOT HERE — leaderboard dark theme, fullscreen]**
+> **The real-time event judging infrastructure built for colleges/Events.**
 
 </div>
 
@@ -71,7 +69,9 @@ Full platform oversight from a single dashboard. Manage multiple college clubs, 
 <!-- 📸 SCREENSHOT PLACEHOLDER 2 -->
 <!-- Add: Super Admin dashboard — Platform Stats page -->
 <!-- Recommended: Show the stats cards + live diagnostics + activity log -->
-> **[ADD SCREENSHOT — Super Admin Dashboard / Platform Stats]**
+<p align="center">
+  <img src="https://github.com/suryansh-tech/event-Handle-app/blob/main/public/Superadmin-dashboard.png" width="800"/>
+</p>
 
 ---
 
@@ -100,7 +100,9 @@ Paste a Google Sheets link or drop an Excel/CSV file. EventRank automatically:
 <!-- 📸 SCREENSHOT PLACEHOLDER 3 -->
 <!-- Add: Sheet import flow — Step 2 column selector UI -->
 <!-- Recommended: Show the column cards with confidence badges + sample values -->
-> **[ADD SCREENSHOT — Intelligent Sheet Import / Column Selector]**
+<p align="center">
+  <img src="https://github.com/suryansh-tech/event-Handle-app/blob/main/public/import-sheet.png" width="800"/>
+</p>
 
 ---
 
@@ -118,7 +120,9 @@ Scoring modes: **AVG · SUM · AVG + Penalty · SUM + Penalty**
 <!-- 📸 SCREENSHOT PLACEHOLDER 4 -->
 <!-- Add: Setup tab — Rounds & Criteria builder -->
 <!-- Recommended: Show an expanded round card with multiple criteria rows -->
-> **[ADD SCREENSHOT — Rounds & Criteria Builder]**
+<p align="center">
+  <img src="https://github.com/suryansh-tech/event-Handle-app/blob/main/public/rounds-builder.png" width="800"/>
+</p>
 
 ---
 
@@ -139,7 +143,9 @@ Judges receive a 24-hour magic invite link. They set a PIN and land directly on 
 <!-- 📸 SCREENSHOT PLACEHOLDER 5 -->
 <!-- Add: Judge dashboard — mobile view with card scoring -->
 <!-- Recommended: Show the scored/pending tabs + progress bar + score inputs -->
-> **[ADD SCREENSHOT — Judge Scoring Dashboard]**
+<p align="center">
+  <img src="https://github.com/suryansh-tech/event-Handle-app/blob/main/public/Judge%20Scoring%20Dashboard.png" width="800"/>
+</p>
 
 ---
 
@@ -160,7 +166,9 @@ Public leaderboard — no login required. Share the URL, project it on screen, l
 <!-- 📸 SCREENSHOT PLACEHOLDER 6 -->
 <!-- Add: Live leaderboard — dark theme, top 5 visible, LIVE badge -->
 <!-- Recommended: Show rank medals + score columns + progress bars -->
-> **[ADD SCREENSHOT — Live Leaderboard]**
+<p align="center">
+  <img src="https://github.com/suryansh-tech/event-Handle-app/blob/main/public/LiveLeaderboard.png" width="800"/>
+</p>
 
 ---
 
@@ -170,7 +178,9 @@ Olympic-style animated winners reveal. Designed for projector display at the end
 
 <!-- 📸 SCREENSHOT PLACEHOLDER 7 -->
 <!-- Add: Winners podium page — 3 podium positions with names -->
-> **[ADD SCREENSHOT — Winners Podium Page]**
+<p align="center">
+  <img src="[https://raw.githubusercontent.com/SuryanshPorwal/eventrank/main/public/screenshots/leaderboard.png](https://github.com/suryansh-tech/event-Handle-app/blob/main/public/Winners%20Podium%20Page.png)" width="800"/>
+</p>
 
 ---
 
@@ -206,23 +216,35 @@ Admin selects the leaderboard theme before publishing — matched to event type:
 
 ### Super Admin — Platform Overview
 <!-- 📸 SCREENSHOT PLACEHOLDER 8 -->
-> **[ADD SCREENSHOT — Super Admin Organizers page with stats banner]**
+<p align="center">
+  <img src="https://github.com/suryansh-tech/event-Handle-app/blob/main/public/Superadmin-dashboard.png" width="800"/>
+  <img src="https://github.com/suryansh-tech/event-Handle-app/blob/main/public/PlatformStats.png" width="800"/>
+</p>
 
 ### Admin — Event Setup
 <!-- 📸 SCREENSHOT PLACEHOLDER 9 -->
-> **[ADD SCREENSHOT — Admin Setup tab, full page]**
+<p align="center">
+  <img src="https://github.com/suryansh-tech/event-Handle-app/blob/main/public/JudgeManagement.png" width="800"/>
+  <img src="https://github.com/suryansh-tech/event-Handle-app/blob/main/public/ManageEvent.png" width="800"/>
+</p>
 
 ### Admin — Judges Management
 <!-- 📸 SCREENSHOT PLACEHOLDER 10 -->
-> **[ADD SCREENSHOT — Judges tab with progress bars]**
+<p align="center">
+    <img src="https://github.com/suryansh-tech/event-Handle-app/blob/main/public/Judge%20Scoring%20Dashboard.png" width="800"/>
+</p>
 
 ### Admin — Results Matrix
 <!-- 📸 SCREENSHOT PLACEHOLDER 11 -->
-> **[ADD SCREENSHOT — Results tab with judge columns + export button]**
+<p align="center">
+    <img src="https://github.com/suryansh-tech/event-Handle-app/blob/main/public/Results%20Matrix.png" width="800"/>
+</p>
 
-### Manage Events
+### Magic Links 
 <!-- 📸 SCREENSHOT PLACEHOLDER 12 -->
-> **[ADD SCREENSHOT — Manage Events page with scoring mode dropdown open]**
+<p align="center">
+    <img src="https://github.com/suryansh-tech/event-Handle-app/blob/main/public/Magiclink.png" width="800"/>
+</p>
 
 </div>
 
@@ -422,7 +444,7 @@ node --env-file=.env.local scripts/setup-db.mjs
 ```
 
 This automatically creates:
-- ✅ Auth user: `admin@eventrank.com` / `Admin@123456`
+- ✅ Auth user: `admin@eventrank.com` / `Admin@yourpassword`
 - ✅ Profile row with `role = 'super_admin'`
 
 > ⚠️ **Change the default password immediately after first login.**
